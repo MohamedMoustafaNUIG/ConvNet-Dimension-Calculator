@@ -13,8 +13,9 @@ An application to calculate the output dimensions of a layer in a traditional co
 </ol>
 
 # GUI prototype preview
-<h3><b>Convolutional Layer</b></h3>
-![GUI prototype](https://github.com/MohamedMoustafaNUIG/ConvNet-Dimension-Calculator/blob/main/Assets/GUI_conv.PNG?raw=true)
+### Convolutional Layer
 
-<h3><b>Pooling Layer</b></h3>
+![GUI prototype](https://github.com/MohamedMoustafaNUIG/ConvNet-Dimension-Calculator/blob/main/Assets/GUI_conv.PNG)
+
+### Pooling Layer
 ![GUI prototype](https://github.com/MohamedMoustafaNUIG/ConvNet-Dimension-Calculator/blob/main/Assets/GUI_pool.PNG?raw=true)
