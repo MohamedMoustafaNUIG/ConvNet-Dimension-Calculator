@@ -36,13 +36,13 @@ class Ui_MainWindow(object):
         self.label_2.setGeometry(QtCore.QRect(30, 120, 111, 21))
         self.label_2.setObjectName("label_2")
         
-        self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit.setGeometry(QtCore.QRect(30, 150, 104, 31))
-        self.textEdit.setObjectName("textEdit")
+        self.kernel_num_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.kernel_num_txt.setGeometry(QtCore.QRect(30, 150, 104, 31))
+        self.kernel_num_txt.setObjectName("kernel_num_txt")
         
-        self.textEdit_2 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_2.setGeometry(QtCore.QRect(150, 150, 104, 31))
-        self.textEdit_2.setObjectName("textEdit_2")
+        self.kernel_size_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.kernel_size_txt.setGeometry(QtCore.QRect(150, 150, 104, 31))
+        self.kernel_size_txt.setObjectName("kernel_size_txt")
         
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(170, 120, 71, 21))
@@ -56,13 +56,13 @@ class Ui_MainWindow(object):
         self.label_5.setGeometry(QtCore.QRect(300, 120, 41, 21))
         self.label_5.setObjectName("label_5")
         
-        self.textEdit_3 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_3.setGeometry(QtCore.QRect(220, 80, 104, 31))
-        self.textEdit_3.setObjectName("textEdit_3")
+        self.padding_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.padding_txt.setGeometry(QtCore.QRect(220, 80, 104, 31))
+        self.padding_txt.setObjectName("padding_txt")
         
-        self.textEdit_4 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_4.setGeometry(QtCore.QRect(270, 150, 104, 31))
-        self.textEdit_4.setObjectName("textEdit_4")
+        self.stride_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.stride_txt.setGeometry(QtCore.QRect(270, 150, 104, 31))
+        self.stride_txt.setObjectName("stride_txt")
         
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(160, 210, 91, 30))
@@ -80,25 +80,25 @@ class Ui_MainWindow(object):
         self.label_9.setGeometry(QtCore.QRect(315, 245, 41, 21))
         self.label_9.setObjectName("label_9")
         
-        self.textEdit_5 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_5.setGeometry(QtCore.QRect(23, 270, 101, 31))
-        self.textEdit_5.setObjectName("textEdit_5")
+        self.inp_width_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.inp_width_txt.setGeometry(QtCore.QRect(23, 270, 101, 31))
+        self.inp_width_txt.setObjectName("inp_width_txt")
         
-        self.textEdit_6 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_6.setGeometry(QtCore.QRect(150, 270, 101, 31))
-        self.textEdit_6.setObjectName("textEdit_6")
+        self.inp_height_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.inp_height_txt.setGeometry(QtCore.QRect(150, 270, 101, 31))
+        self.inp_height_txt.setObjectName("inp_height_txt")
         
-        self.textEdit_7 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_7.setGeometry(QtCore.QRect(280, 270, 101, 31))
-        self.textEdit_7.setObjectName("textEdit_7")
+        self.inp_depth_txt = QtWidgets.QTextEdit(self.centralwidget)
+        self.inp_depth_txt.setGeometry(QtCore.QRect(280, 270, 101, 31))
+        self.inp_depth_txt.setObjectName("inp_depth_txt")
         
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(460, 260, 93, 28))
-        self.pushButton.setObjectName("pushButton")
+        self.calculateButton = QtWidgets.QPushButton(self.centralwidget)
+        self.calculateButton.setGeometry(QtCore.QRect(460, 260, 93, 28))
+        self.calculateButton.setObjectName("calculateButton")
 
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(580, 260, 93, 28))
-        self.pushButton_2.setObjectName("pushButton_2")
+        self.clearButton = QtWidgets.QPushButton(self.centralwidget)
+        self.clearButton.setGeometry(QtCore.QRect(580, 260, 93, 28))
+        self.clearButton.setObjectName("clearButton")
         
         self.label_10 = QtWidgets.QLabel(self.centralwidget)
         self.label_10.setGeometry(QtCore.QRect(510, 10, 101, 30))
@@ -116,17 +116,17 @@ class Ui_MainWindow(object):
         self.label_13.setGeometry(QtCore.QRect(510, 150, 51, 21))
         self.label_13.setObjectName("label_13")
         
-        self.label_14 = QtWidgets.QLabel(self.centralwidget)
-        self.label_14.setGeometry(QtCore.QRect(600, 150, 51, 21))
-        self.label_14.setObjectName("label_14")
+        self.out_width_label = QtWidgets.QLabel(self.centralwidget)
+        self.out_width_label.setGeometry(QtCore.QRect(600, 70, 55, 21))
+        self.out_width_label.setObjectName("out_width_label")
         
-        self.label_15 = QtWidgets.QLabel(self.centralwidget)
-        self.label_15.setGeometry(QtCore.QRect(600, 110, 51, 21))
-        self.label_15.setObjectName("label_15")
+        self.out_height_label = QtWidgets.QLabel(self.centralwidget)
+        self.out_height_label.setGeometry(QtCore.QRect(600, 110, 55, 21))
+        self.out_height_label.setObjectName("out_height_label")
         
-        self.label_16 = QtWidgets.QLabel(self.centralwidget)
-        self.label_16.setGeometry(QtCore.QRect(600, 70, 51, 21))
-        self.label_16.setObjectName("label_16")
+        self.out_depth_label = QtWidgets.QLabel(self.centralwidget)
+        self.out_depth_label.setGeometry(QtCore.QRect(600, 150, 55, 21))
+        self.out_depth_label.setObjectName("out_depth_label")
         
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -153,16 +153,16 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "Height"))
         self.label_9.setText(_translate("MainWindow", "Depth"))
         
-        self.pushButton.setText(_translate("MainWindow", "Calculate"))
-        self.pushButton_2.setText(_translate("MainWindow", "Clear"))
+        self.calculateButton.setText(_translate("MainWindow", "Calculate"))
+        self.clearButton.setText(_translate("MainWindow", "Clear"))
 
         self.label_10.setText(_translate("MainWindow", "OUTPUT DETAILS"))
         self.label_11.setText(_translate("MainWindow", "Width"))
         self.label_12.setText(_translate("MainWindow", "Height"))
         self.label_13.setText(_translate("MainWindow", "Depth"))
-        self.label_14.setText(_translate("MainWindow", "N/A"))
-        self.label_15.setText(_translate("MainWindow", "N/A"))
-        self.label_16.setText(_translate("MainWindow", "N/A"))
+        self.out_width_label.setText(_translate("MainWindow", "N/A"))
+        self.out_height_label.setText(_translate("MainWindow", "N/A"))
+        self.out_depth_label.setText(_translate("MainWindow", "N/A"))
 
 
 if __name__ == "__main__":
