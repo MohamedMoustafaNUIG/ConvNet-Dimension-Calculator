@@ -10,3 +10,6 @@ An application to calculate the output dimensions of a layer in a traditional co
   <li>(Optional) Improve GUI, work on error handling</li>
   <li>(For the future) Allow for multi-layer input-output</li>
 </ol>
+
+# GUI prototype preview
+![GUI prototype](https://github.com/MohamedMoustafaNUIG/ConvNet-Dimension-Calculator/blob/main/GUI_proto.PNG?raw=true)
