@@ -10,7 +10,7 @@ An application to calculate the output dimensions of a layer in a traditional co
   <li><s>Add the logic code to the GUI</s></li>
   <li><s>Add comments</s></li>
   <li><s>(Optional) Improve GUI, work on error handling</s></li>
-  <li>Create an executable file for the application</li>
+  <li><s>Create an executable file for the application</s></li>
   <li>(For the future) Allow for multi-layer input-output</li>
 </ol>
 
